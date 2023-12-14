@@ -1,5 +1,5 @@
 #include<stdio.h>
-int add(int,int);
+int a(int,int);
 int main()
 {
 	int n;
@@ -7,7 +7,7 @@ int main()
 	int k=add(n,2);
 	printf("%d",k);
 }
-int add(int n,int ele)
+int a(int n,int ele)
 {
    static int sum=0;
 	if(ele==0)
