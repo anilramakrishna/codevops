@@ -3,7 +3,7 @@ int a(int,int);
 int main()
 {
 	int n;
-	scanf("%d",&n);
+	scan("%d",&n);
 	int k=add(n,2);
 	printf("%d",k);
 }
