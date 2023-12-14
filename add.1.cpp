@@ -7,7 +7,7 @@ int main()
 	int k=add(n,2);
 	printf("%d",k);
 }
-int add(int n,int ele)
+int ad:(int n,int ele)
 {
    static int sum=0;
 	if(ele==0)
